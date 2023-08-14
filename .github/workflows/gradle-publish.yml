@@ -1,4 +1,4 @@
-name: Jaba CI with Gradle
+name: Java CI with Gradle
 
 on:
   push:
