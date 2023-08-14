@@ -21,15 +21,13 @@ public class MainController {
 		return ResponseEntity.ok().body(map);
 	}
 	
-	@GetMapping({"","/"})
+	@GetMapping({"/health"})
 	public ResponseEntity<?> health() {
 		Map<String, Object> map = new HashMap<>();
 		map.put("key", "2222");
 		
 		return ResponseEntity.ok().body(map);
 	}
-	
-	
 	
 
 }
