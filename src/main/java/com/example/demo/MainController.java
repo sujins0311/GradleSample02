@@ -14,11 +14,14 @@ public class MainController {
 	
 	
 	@GetMapping({"","/"})
-	public ResponseEntity<?> health() {
+	public ResponseEntity<?> index() {
 		Map<String, Object> map = new HashMap<>();
 		map.put("id", "m001");
 		
 		return ResponseEntity.ok().body(map);
 	}
+	
+	
+	
 
 }
